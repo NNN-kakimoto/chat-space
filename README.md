@@ -1,11 +1,11 @@
-#DB設計
+# DB設計
 
 ## usersテーブル
 |Column|Type|Options|
 |------|----|-------|
 |name|string|null: false, add_index|
 |mail_addles|string|null: false|
-|pass_word|text|null: false|
+|password|text|null: false|
 
 ### Association
 - has_many: messages
